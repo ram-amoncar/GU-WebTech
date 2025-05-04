@@ -1,0 +1,230 @@
+:root {
+    --primary-bg: #1D2A35;
+    --secondary-bg: #15202B;
+    --accent-bg: #04AA6D;
+    --hover-bg: #218838;
+    --primary-color: #fff;
+    --secondary-color: #c5c6c7;
+    --code-block-color: #38444D;
+    --code-bg-color: #15202B;
+    --hover-color: #45a29e;
+    --font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-bg);
+    color: var(--primary-color);
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 0 10px;
+    font-size: 0.875rem;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+    margin-right: 15px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+.icon {
+    font-size: 1.125rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.signup {
+    background-color: var(--accent-bg);
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
+.login {
+    background-color: #ddd;
+    color: #000;
+}
+
+.signup:hover,
+.login:hover {
+    opacity: 0.8;
+}
+
+.horizontal-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #282A35;
+    padding: 10px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.horizontal-navbar a {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-size: 0.875rem;
+    display: inline-block;
+}
+
+.horizontal-navbar a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: var(--secondary-bg);
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h2 {
+    color: var(--primary-color);
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-bottom: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: var(--accent-bg);
+    color: var(--primary-color);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: var(--primary-bg);
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-color);
+}
+
+.btn {
+    background-color: var(--accent-bg);
+    border: none;
+    color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.content-body {
+    background-color: #193D3D;
+    color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content-body p {
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent-bg);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+}
+
+.cta-button:hover {
+    background-color: var(--hover-bg);
+}
+
+.code-block {
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--code-block-color);
+}
+
+.code {
+    flex: 1;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: var(--code-bg-color);
+    color: red;
+}
