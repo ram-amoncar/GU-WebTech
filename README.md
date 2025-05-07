@@ -6,3 +6,4 @@
 2. Continue the Development of the website using CSS [[Link]](Assignment%202%20-%20Styling%20Website%20with%20CSS/README.md)
 3. Portfolio Website [[Link]](Assignment%203%20-%20Portfolio%20Website/README.md)
 4. Responsive Website [[Link]](Assignment%204%20-%20Reponsive%20Website/README.md)
+5. Dynamic Webpages with JavaScript [[Link]](Assignment%205%20-%20JavaScript%20Implementation/README.md)
