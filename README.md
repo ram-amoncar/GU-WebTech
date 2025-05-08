@@ -7,3 +7,4 @@
 3. Portfolio Website [[Link]](Assignment%203%20-%20Portfolio%20Website/README.md)
 4. Responsive Website [[Link]](Assignment%204%20-%20Reponsive%20Website/README.md)
 5. Dynamic Webpages with JavaScript [[Link]](Assignment%205%20-%20JavaScript%20Implementation/README.md)
+6. Web Mini-Game [[Link]](Assignment%206%20-%20Web%20Mini%20Game/README.md)
