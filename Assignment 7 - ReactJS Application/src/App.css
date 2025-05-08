@@ -1,0 +1,41 @@
+/* Default Light Mode */
+.app {
+  background-color: #f9f9f9;
+  color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.app.dark {
+  background-color: #121212;
+  color: white;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: 2px solid firebrick;
+  color: inherit;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Header */
+h1 {
+  margin-bottom: 20px;
+}
